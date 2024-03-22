@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button{
+  cursor: pointer;
+}
+
+.dashboard {
+  width: 100px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5b5ce2;
+  position: fixed;
+  .active {
+    background-color: rgba(108, 109, 229, 1);
+    transition: 0.5s;
+  }
+  .logo {
+    margin-top: 30px;
+    margin-bottom: 38px;
+  }
+  .dashboard-icons {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    .dashboard-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 6px;
+    }
+  }
+}

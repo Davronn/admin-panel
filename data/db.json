@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "arikul": "24i5oy2oik",
+      "brand": "Iphone 17",
+      "price": "1003",
+      "discountPercentage": 33,
+      "id": "1"
+    },
+    {
+      "arikul": "986473828329",
+      "brand": "lalaku",
+      "price": 342,
+      "discountPercentage": "",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "arikul": "1840983485o2",
+      "price": 900,
+      "discountPercentage": 500,
+      "brand": "Apple 14"
+    },
+    {
+      "arikul": "018475285793",
+      "brand": "Apple 15",
+      "price": 1100,
+      "discountPercentage": "",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "arikul": "999111555343",
+      "price": 800,
+      "discountPercentage": 200,
+      "brand": "Red Magik"
+    },
+    {
+      "arikul": "3452yui3yt5",
+      "brand": "oaa",
+      "price": "78",
+      "discountPercentage": "12",
+      "id": "9670"
+    },
+    {
+      "arikul": "343435",
+      "brand": "olma",
+      "price": "78",
+      "discountPercentage": "15",
+      "id": "bbbb"
+    },
+    {
+      "arikul": "13451354",
+      "brand": "xaxa1",
+      "price": "435",
+      "discountPercentage": "",
+      "id": "76d5"
+    },
+    {
+      "arikul": "45",
+      "brand": "olma",
+      "price": "78",
+      "discountPercentage": "2",
+      "id": "9ffd"
+    }
+  ]
+}
