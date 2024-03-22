@@ -1,6 +1,59 @@
+@media only screen and (max-width: 544px) {
+  .dashboard {
+    display: none;
+    img {
+      display: none;
+    }
+    div {
+      display: none;
+    }
+    span {
+      display: none;
+    }
+  }
+  .addproduct {
+    margin-left: 0px !important;
+    span {
+      margin-top: 10px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 394px) {
+  form {
+    input {
+      max-width: 140px;
+      margin-right: 10px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 633px) {
+  .pricess {
+    flex-direction: column;
+  }
+
+  .addproduct {
+    span {
+      margin-top: 10px !important;
+    }
+  }
+
+  form {
+    input {
+      max-width: 240px;
+    }
+  }
+}
 .addproduct {
   margin-left: 100px;
+
+  .fixed {
+    position: fixed;
+    width: 100%;
+  }
   .header {
+    max-width: 100%;
     display: flex;
     align-items: center;
     height: 80px;
@@ -25,16 +78,19 @@
       }
     }
   }
+  .fixed_content {
+    position: fixed;
+    width: 90%;
+  }
   .content {
     display: flex;
     flex-direction: column;
-    width: 1350px;
-    margin: 0px 40px auto;
+    max-width: 1350px;
+    margin: 100px 40px auto;
     box-shadow: 0px 0px 83px -10px rgba(115, 115, 115, 0.75);
     border-radius: 12px;
-    margin-top: 100px;
     button {
-      width: 105px;
+      max-width: 105px;
       height: 40px;
       background-color: rgba(240, 240, 246, 1);
       border-radius: 5px;
@@ -57,7 +113,7 @@
       flex-direction: column;
       .pricess {
         display: flex;
-        width: 450px;
+        max-width: 450px;
         justify-content: space-between;
         margin-bottom: 50px;
       }
@@ -89,25 +145,25 @@
           color: red;
         }
         .brand {
-          width: 500px;
+          max-width: 500px;
         }
         .artikul {
-          width: 600px;
+          max-width: 600px;
         }
       }
     }
   }
-  .fixed {
+  .fixed_footer {
     position: fixed;
     width: 100%;
+    bottom: 0px;
     .footer {
-      display: flex;
-      justify-content: center;
-      position: fixed;
-      bottom: 0px;
-      height: 80px;
+      max-width: 1440px;  
+      display: flex; 
+      justify-content: center;   
+      height: 80px; 
       box-shadow: 3px 20px 44px 10px rgba(148, 148, 148, 0.75);
-      width: 100%;
+      max-width: 100%;
       align-items: center;
       .btns {
         display: flex;

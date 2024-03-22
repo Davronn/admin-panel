@@ -1,11 +1,82 @@
 a {
   text-decoration: none;
 }
+.root {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 653px) {
+  .content-h {
+    flex-direction: column;
+    .input {
+      margin-top: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 980px) {
+  .arikul,
+  .brand {
+   max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 636px) {
+  tr {
+    height: 160px;
+    td {
+      flex-direction: column;
+      max-width: 100px;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 544px) {
+  
+  .inputs{
+    .input{
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+    }
+  }
+  .arikul,
+  .brand {
+    
+   max-width: 180px;
+  }
+  .dashboard {
+    display: none;
+    img {
+      display: none;
+    }
+    div {
+      display: none;
+    }
+    span {
+      display: none;
+    }
+  }
+  .productlist {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 417px) {
+  .content-h {
+    .input {
+      input {
+        padding: 7px;
+        width: 150px;
+      }
+    }
+  }
+}
 
 .productlist {
-  margin-left: 100px;
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
   .modal {
     position: fixed;
     z-index: 1;
@@ -18,31 +89,37 @@ a {
     background-color: rgba(0, 0, 0, 0.4);
     animation-name: modalopen;
     animation-duration: 1s;
+
     .modal-content {
       background-color: #fefefe;
-      margin: auto;
+      margin: 0px auto 80px;
       padding: 20px;
       border: 1px solid #888;
       width: 60%;
       height: 75vh;
       border-radius: 10px;
+
       .close {
         display: flex;
         cursor: pointer;
         justify-content: end;
       }
+
       h2 {
         font-size: 30px;
         .red {
           color: red;
         }
       }
+
       .inputs {
         display: flex;
         flex-direction: column;
+
         .input {
           margin-bottom: 20px;
           margin-top: 20px;
+
           p {
             font-size: 19px;
             font-weight: 700;
@@ -50,6 +127,7 @@ a {
             margin-bottom: 10px;
           }
         }
+
         .prices {
           .input {
             input {
@@ -61,15 +139,18 @@ a {
               line-height: 21px;
               text-align: left;
               border-radius: 10px;
-            }
-            input:focus {
-              color: #ffffff;
-              background-color: rgb(0, 0, 0);
-              outline: none;
+
+              &:focus {
+                color: #ffffff;
+                background-color: rgb(0, 0, 0);
+                outline: none;
+              }
             }
           }
         }
-        .arikul {
+
+        .arikul,
+        .brand {
           width: 550px;
           border: none;
           padding: 10px;
@@ -80,23 +161,14 @@ a {
           text-align: left;
           border-radius: 10px;
         }
-        .brand {
-          width: 600px;
-          border: none;
-          padding: 10px;
-          background-color: rgb(201, 201, 201);
-          font-size: 15px;
-          font-weight: 700;
-          line-height: 21px;
-          text-align: left;
-          border-radius: 10px;
-        }
+
         input:focus {
           color: #ffffff;
           background-color: rgb(0, 0, 0);
           outline: none;
         }
       }
+
       .save {
         width: 120px;
         height: 40px;
@@ -105,15 +177,17 @@ a {
         border: 2px solid #888;
         background-color: #ffffff;
         font-size: 17px;
-      }
-      .save:hover {
-        background-color: rgba(27, 197, 141, 1);
-        color: #ffffff;
-        transition: 0.5s;
-        border: 2px solid rgba(27, 197, 141, 1);
+
+        &:hover {
+          background-color: rgba(27, 197, 141, 1);
+          color: #ffffff;
+          transition: 0.5s;
+          border: 2px solid rgba(27, 197, 141, 1);
+        }
       }
     }
   }
+
   @keyframes modalopen {
     0% {
       transform: scale(0);
@@ -123,27 +197,35 @@ a {
       transform: scale(1);
     }
   }
+
   .fixed {
     position: fixed;
+    z-index: 1;
     width: 100%;
   }
+
   .header {
+    max-width: 1440px;
     display: flex;
     align-items: center;
     height: 80px;
     background-color: #ffffff;
     box-shadow: 3px 20px 44px -12px rgba(148, 148, 148, 0.75);
+
     .text {
       margin-left: 40px;
+
       h2 {
         font-size: 18px;
         font-weight: 800;
         line-height: 22.59px;
         margin-bottom: 4px;
       }
+
       .p {
         display: flex;
         gap: 8px;
+
         p {
           font-size: 13px;
           font-weight: 700;
@@ -153,22 +235,26 @@ a {
       }
     }
   }
+
   .content {
     display: flex;
     flex-direction: column;
-    width: 1350px;
+    max-width: 1350px;
     margin: 0px 40px auto;
     box-shadow: 0px 0px 83px -10px rgba(115, 115, 115, 0.75);
     border-radius: 12px;
     margin-top: 100px;
+
     .content_head {
       display: flex;
       flex-direction: column;
       padding: 0px 24px;
       padding-top: 24px;
+
       .content-h {
         justify-content: space-between;
         display: flex;
+
         h2 {
           padding-bottom: 59px;
           border-bottom: 4px solid rgba(91, 92, 226, 1);
@@ -178,12 +264,14 @@ a {
           line-height: 11.52px;
           text-align: left;
         }
+
         .input {
           display: flex;
           align-items: center;
           padding-bottom: 33px;
+
           input {
-            width: 200px;
+            max-width: 200px;
             border: none;
             padding: 10px;
             background-color: rgba(247, 247, 255, 1);
@@ -194,9 +282,11 @@ a {
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
           }
+
           input:focus {
             outline: none;
           }
+
           img {
             padding-top: 10px;
             padding-bottom: 9px;
@@ -214,15 +304,17 @@ a {
       }
     }
     .content_aside {
+      max-width: 1360px;
       margin-left: 24px;
       table {
         display: flex;
         flex-direction: column;
         thead {
           tr {
-            width: 1290px;
+            max-width: 1290px;
             height: 70px;
             display: flex;
+            flex-wrap: wrap;
             border-bottom: 1px solid #ddd;
             align-items: center;
             .id {
@@ -275,11 +367,11 @@ a {
           max-height: 380px;
           overflow-y: auto;
           scrollbar-width: none;
-          
           tr {
-            width: 1290px;
+            max-width: 1290px;
             height: 60px;
             display: flex;
+            flex-wrap: wrap;
             border-bottom: 1px solid #ddd;
             align-items: center;
             .id {
@@ -320,7 +412,6 @@ a {
             .btns {
               display: flex;
               justify-content: end;
-              width: 200px;
               img {
                 cursor: pointer;
                 margin-right: 6px;

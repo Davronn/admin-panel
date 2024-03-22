@@ -5,23 +5,27 @@
   font-family: Mulish;
 }
 
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
 .dashboard {
-  width: 100px;
-  height: 800px;
+  position: fixed;
+
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #5b5ce2;
-  position: fixed;
+  padding-left: 25px;
+  padding-right: 25px;
+ 
   .active {
     background-color: rgba(108, 109, 229, 1);
     transition: 0.5s;

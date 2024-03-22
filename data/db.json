@@ -15,18 +15,11 @@
       "id": "2"
     },
     {
-      "id": "3",
       "arikul": "1840983485o2",
+      "brand": "Apple 14",
       "price": 900,
-      "discountPercentage": 500,
-      "brand": "Apple 14"
-    },
-    {
-      "arikul": "018475285793",
-      "brand": "Apple 15",
-      "price": 1100,
-      "discountPercentage": "",
-      "id": "4"
+      "discountPercentage": "500",
+      "id": "3"
     },
     {
       "id": "5",
@@ -36,32 +29,39 @@
       "brand": "Red Magik"
     },
     {
-      "arikul": "3452yui3yt5",
-      "brand": "oaa",
-      "price": "78",
-      "discountPercentage": "12",
-      "id": "9670"
+      "id": "fe45",
+      "brand": "Rolex",
+      "arikul": "87364r5187364",
+      "price": "500",
+      "discountPercentage": ""
     },
     {
-      "arikul": "343435",
-      "brand": "olma",
-      "price": "78",
-      "discountPercentage": "15",
-      "id": "bbbb"
+      "id": "d3b4",
+      "brand": "Redmi",
+      "arikul": "1893465918364",
+      "price": "400",
+      "discountPercentage": "100"
     },
     {
-      "arikul": "13451354",
-      "brand": "xaxa1",
-      "price": "435",
-      "discountPercentage": "",
-      "id": "76d5"
+      "id": "69a5",
+      "brand": "RedMagik",
+      "arikul": "13894651837",
+      "price": "232",
+      "discountPercentage": ""
     },
     {
-      "arikul": "45",
-      "brand": "olma",
-      "price": "78",
-      "discountPercentage": "2",
-      "id": "9ffd"
+      "arikul": "982657983",
+      "brand": "CHevrolet",
+      "price": "12000",
+      "discountPercentage": "100",
+      "id": "8879"
+    },
+    {
+      "arikul": "223452394572037",
+      "brand": "Akrapovich",
+      "price": "8000",
+      "discountPercentage": "1000",
+      "id": "168c"
     }
   ]
 }
